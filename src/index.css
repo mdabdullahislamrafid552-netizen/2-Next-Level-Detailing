@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #0b0c10;
+  --color-cyan: #094dad;
+  --color-cyan-dark: #45a29e;
+  --color-dark-surface: rgba(255, 255, 255, 0.03);
+  --color-footer: #050505;
+
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Space Grotesk", sans-serif;
+}
+
+body {
+  background-color: var(--color-obsidian);
+  color: white;
+  font-family: var(--font-sans);
+}
+
+.bg-hexagons {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='69.2820323027551' viewBox='0 0 40 69.2820323027551' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 69.282v-15.396l-13.333-7.698v-15.396l13.333-7.698l13.333 7.698v15.396z' fill='%23094dad' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+/* Hide scrollbar for clean UI but keep functionality */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-obsidian);
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2833;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-cyan-dark);
+}

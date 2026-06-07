@@ -1,0 +1,8 @@
+{
+  "name": "Next Level Detailing",
+  "description": "Premium $300k-tier automotive detailing application featuring high-end visual design and architectural precision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
